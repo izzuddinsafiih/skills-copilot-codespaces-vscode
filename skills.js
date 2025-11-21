@@ -11,3 +11,6 @@ function calculateNumbers(var1, var2) {
         quotient: quotient
     };
 } 
+module.exports = {
+    calculateNumbers
+};
