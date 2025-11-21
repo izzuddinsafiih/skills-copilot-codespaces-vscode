@@ -1,9 +1,25 @@
-function skillsMember() {
+function skillsMembers() {
     return [
-        { id: 1, name: 'Alice', skills: ['JavaScript', 'Node.js'] },
-        { id: 2, name: 'Bob',   skills: ['Python', 'Django'] },
-        { id: 3, name: 'Eve',   skills: ['Go', 'Kubernetes'] }
+        {
+            name: "Alice Johnson",
+            role: "Frontend Developer",
+            skills: ["JavaScript", "React", "CSS", "HTML"]
+        },
+        {
+            name: "Bob Smith",
+            role: "Backend Developer",
+            skills: ["Node.js", "Express", "MongoDB", "SQL"]
+        },
+        {
+            name: "Charlie Brown",
+            role: "Full Stack Developer",
+            skills: ["JavaScript", "Node.js", "React", "GraphQL"]
+        },
+        {
+            name: "Diana Prince",
+            role: "DevOps Engineer",
+            skills: ["AWS", "Docker", "Kubernetes", "CI/CD"]
+        }
     ];
-}
-
-module.exports = skillsMember;
+}    
+module.exports = skillsMembers;
