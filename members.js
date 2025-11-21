@@ -1,20 +1,9 @@
 function skillsMember() {
     return [
-        {
-            skill: "JavaScript",
-            level: "Advanced",
-            yearsExperience: 5
-        },
-        {
-            skill: "Python",
-            level: "Intermediate",
-            yearsExperience: 3
-        },
-        {
-            skill: "HTML/CSS",
-            level: "Advanced",
-            yearsExperience: 6
-        }
+        { id: 1, name: 'Alice', skills: ['JavaScript', 'Node.js'] },
+        { id: 2, name: 'Bob',   skills: ['Python', 'Django'] },
+        { id: 3, name: 'Eve',   skills: ['Go', 'Kubernetes'] }
     ];
 }
-module.exports = skillsMember;  
+
+module.exports = skillsMember;
